@@ -1,0 +1,104 @@
+/* I need to spend time learning how to use css so that the page is responsive to whatever screen size I am using. cause how I am doing it now
+everything looks ok then I change the screen size and its like a bomb went off on the page */
+
+.main-nav {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+    align-content: stretch;
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+.nav {
+    margin: 1%;
+    font-size: 14px;
+}
+
+.company {
+    margin: 72%;
+}
+
+.more-know-out {
+    text-align: center;
+    vertical-align: middle; 
+    margin-top: 0;
+}
+
+.more-know {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px; 
+    font-family: 'Notable', sans-serif;/* Know its not exact but, it reminded me of pulp fiction so I went with it*/
+}
+
+.main {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.main-top {
+    background-color: aquamarine;
+    height: 150px;
+    width: 20%;
+    margin: auto;
+    margin-top: 25px;
+}
+.main-m {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: stretch;
+    height: 200px;
+}
+
+.main-middle {
+    background-color: orange;
+    height: 140px;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 300px;
+}
+
+.main-b {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: stretch;
+}
+
+.main-bottom-left {
+    text-align: left;
+    margin-right: 650px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.main-bottom-right {
+    margin-left: 70%;
+    margin-top: 0;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: darkslategray;
+}
